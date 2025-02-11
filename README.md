@@ -23,15 +23,17 @@ Apprentissage par Transfert Learning avec MobileNetV2 :
 Utilisation du modèle MobileNetV2 pré-entraîné sur ImageNet.
 Geler les couches convolutives de base et ajouter une tête de classification personnalisée.
 Réévaluation des performances avec cette approche.
-Amélioration des performances :
 
+Amélioration des performances :
 Application de techniques d'augmentation de données pour améliorer la généralisation du modèle.
 Fine-tuning des couches supérieures de MobileNetV2 pour affiner le modèle.
 Test du modèle avec de nouvelles images téléchargées sur Internet pour évaluer sa robustesse.
+
 Résultats attendus :
 Comparaison des performances du modèle CNN "from scratch" et de l'approche par transfert learning.
 Tests de généralisation avec de nouvelles photos et ajustements pour améliorer la précision.
 Analyse des stratégies d'amélioration : augmentation des données, régularisation, et collecte de données supplémentaires.
+
 Technologies utilisées :
 Langage : Python
 Bibliothèques : TensorFlow, Keras, NumPy, Matplotlib, PIL (Pillow)
